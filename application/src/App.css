@@ -47,9 +47,13 @@ h1{
 
 .card {display:inline-block;}
 
+#recipeButton{
+  background-color: #7ea4b3;
+}
+
 #webName{
   margin-top: 100px;
-  margin-bottom: 70px;
+  margin-bottom: 60px;
 }
 
 

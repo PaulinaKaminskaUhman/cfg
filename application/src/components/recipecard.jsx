@@ -13,8 +13,8 @@ const RecipeCard = ({image, title, text}) => {
       <Card.Text style={{ color: 'black', fontSize: "16px", height : '5rem'}}>
         {text}
       </Card.Text>
-      
-      <Button variant="primary">Make it yourself!</Button>
+      <PopoverR props= "Show recipe"></PopoverR>
+      {/* <Button variant="primary">Make it yourself!</Button> */}
     </Card.Body>
   </Card>
   );

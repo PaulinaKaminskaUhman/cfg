@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import './components/recipecard'
 import { RecipeCard } from './components/recipecard.jsx';
+import { PopoverR } from './components/popover';
 
 
 
@@ -71,6 +72,8 @@ function App() {
         
         
         </div>
+
+       
 
 
         <div class = "row">
