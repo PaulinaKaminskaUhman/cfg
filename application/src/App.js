@@ -35,13 +35,13 @@ function App() {
     <div className="App">
       <header className="App-header">
 
-      <div class = "row">
+      <div class = "row" id='webName'>
       <div class = "col-2"> <img src="https://i.ibb.co/3NRh079/5a38bcd367acf4-1945133615136677954247.png" className="App-logo" alt="logo" /></div>
       <div class = "col-10"> <h1>My Little Bakery</h1></div>
       </div>
 
       
-        <div class = "row">
+        <div class = "row" >
         
         <div class = "col">        
         <RecipeCard className = "card"

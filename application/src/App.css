@@ -2,7 +2,7 @@
 
 
 .App {
-
+ height: 100%;
 }
 
 .App-logo {
@@ -30,8 +30,9 @@ h1{
 }
 
 .App-header {
-  background-color: #b69fc9;
-  min-height: 100vh;
+  background-image: url("https://img.freepik.com/free-photo/flat-lay-bakery-composition-with-copyspace_23-2148189396.jpg?w=1800&t=st=1681073676~exp=1681074276~hmac=e066b1b8a2006371dbd3c0bc3c17ba95c07128caaa1b12a1c7c6619c4fcf58ce");
+  background-size: cover;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -45,6 +46,12 @@ h1{
 }
 
 .card {display:inline-block;}
+
+#webName{
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+
 
 
 @keyframes App-logo-spin {
