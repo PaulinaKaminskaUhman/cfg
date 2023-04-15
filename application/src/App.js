@@ -17,26 +17,50 @@ import recipe8 from'./components/recipes8';
 function App() {
 
   const cake1 = {
-    image : "https://preppykitchen.com/wp-content/uploads/2022/05/Naked-Cake-Recipe-Card.jpg",
-    title : "Naked Strawberry Cake",
-    text : "This delicious strawberry cake is one of my most popular recipes!",
+    image : "https://i0.wp.com/www.onceuponachef.com/images/2018/01/Pound-Cake_.jpg?resize=760%2C529&ssl=1",
+    title : "Perfect Pound Cake",
+    text : "Elegant and simple, this pound cake is a black dress of desserts!",
     }
   const cake2 = {
     image : "https://handletheheat.com/wp-content/uploads/2015/03/Best-Birthday-Cake-with-milk-chocolate-buttercream-SQUARE.jpg",
     title : "Best Birthday Cake",
-    text : "This Birthday Cake is a family favourit    e"
+    text : "This Birthday Cake is a family favourite."
     }  
   const cake3 = {
-    image : "https://www.sainsburysmagazine.co.uk/uploads/media/720x770/03/3973-BirthdayCake-V2-1120x1460.jpg?v=1-0",
-    title : "White Cholocate and Coconut Cake",
-    text : "Very delicious cake for fancy events"
+    image : "https://images.immediate.co.uk/production/volatile/sites/2/2019/05/Olive_VicSponge1-c7a81fd-e1646863674868.jpg?quality=90&resize=700,466",
+    title : "White Cholocate and Raspberry Cake",
+    text : "Delicious recipe to impress your guests!"
     }
 
   const cake4 = {
-    image : "https://www.sainsburysmagazine.co.uk/uploads/media/720x770/03/3973-BirthdayCake-V2-1120x1460.jpg?v=1-0",
-    title : "White Cholocate and Coconut Cake",
-    text : "Very delicious cake for fancy events"
+    image : "https://images-gmi-pmc.edge-generalmills.com/c2462c96-4a12-484b-ad78-4bbc2ce6505f.jpg",
+    title : "Carmel and Chocolate Cake With Whipped Cream",
+    text : "This cake tastes as amazing as it looks!"
     }
+
+  const cake5 = {
+    image : "https://img.kidspot.com.au/6K3xTqMy/kk/2015/05/3635-500535-1.jpg",
+    title : "Easy Chocolate Cake Recipe",
+    text : "This easy chocolate cake recipe is made from simple pantry ingredients and is great for the newbie."
+    }
+
+  const cake6 = {
+    image : "https://platedcravings.com/wp-content/uploads/2017/08/Moist-Lemon-Cake-Recipe-Plated-Cravings-2.jpg",
+    title : "Moist Lemon Cake Recipe",
+    text : "This moist Lemon Cake Recipe is fluffy, tangy and so easy to make from scratch!"
+    }
+  const cake7 = {
+    image : "https://apriljharris.com/wp-content/uploads/2015/10/Chocolate-Raspberry-Jam-Cake.jpg",
+    title : "Chocolate and Jam Cake",
+    text : "This irresistible Chocolate and Raspberry Jam Cake comes together so quickly you won't believe it!"
+    }
+    
+  const cake8 = {
+    image : "https://www.simplyrecipes.com/thmb/KGjnllq33Hij5UgyLZJL2XRv3U4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Carrot-Cake-LEAD-3-81e1d3700f0241279f9ba4c2b8b6153c.jpg",
+    title : "Simple Carrot Cake",
+    text : "This carrot cake with pineapple and coconut is a family favorite, made every year for all sorts of celebrations from birthdays to Easter!"
+    }
+  
 
 
   return (
@@ -83,31 +107,31 @@ function App() {
     < div class = "row">
         <div class = "col">        
         <RecipeCard className = "card"
-        image = {cake1.image}
-        title = {cake1.title}
-        text = {cake1.text}  
+        image = {cake5.image}
+        title = {cake5.title}
+        text = {cake5.text}  
         recipeText={recipe5}></RecipeCard></div>
 
         <div class = "col"> 
         <RecipeCard className = "card"
-        image = {cake2.image}
-        title = {cake2.title}
-        text = {cake2.text}  
+        image = {cake6.image}
+        title = {cake6.title}
+        text = {cake6.text}  
         recipeText={recipe6}></RecipeCard></div>
 
         <div class = "col"> 
         <RecipeCard className = "card"
-        image = {cake3.image}
-        title = {cake3.title}
-        text = {cake3.text} 
+        image = {cake7.image}
+        title = {cake7.title}
+        text = {cake7.text} 
         recipeText={recipe7}></RecipeCard></div>
         
 
         <div class = "col"> 
         <RecipeCard className = "card"
-        image = {cake4.image}
-        title = {cake4.title}
-        text = {cake4.text} 
+        image = {cake8.image}
+        title = {cake8.title}
+        text = {cake8.text} 
         recipeText={recipe8}></RecipeCard></div>
         
         </div>

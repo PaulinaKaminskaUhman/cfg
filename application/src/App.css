@@ -6,7 +6,7 @@
 }
 
 .App-logo {
-  margin: 20px;
+ 
   height: 10vmin;
   pointer-events: none;
   display: inline;
@@ -45,7 +45,13 @@ h1{
   color: #61dafb;
 }
 
-.card {display:inline-block;}
+.card {
+  display:inline-block;
+}
+
+ul{
+  list-style-type: none;
+}
 
 #recipeButton{
   background-color: #7ea4b3;
